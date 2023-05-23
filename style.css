@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  padding: 15px;
+  border: 2px solid #9dbbae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #9dbbae;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar h1 {
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-me {
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #9dbbae;
+}
+
+button {
+  text-decoration: none;
+  border: 2px solid #9dbbae;
+  background-color: #9dbbae;
+  color: white;
+  border-radius: 6px;
+  height: 40px;
+  cursor: pointer;
+}

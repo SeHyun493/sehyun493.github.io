@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Steven's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <h1><strong>Steven Lee</strong></h1>
+        <p>
+          Hello, my name is Steven Lee and I am a software engineer. Welcome to
+          my personal website!
+        </p>
+        <a href="https://www.linkedin.com/in/steven-sehyun-lee/">Linkedin</a>
+        <a href="https://github.com/SeHyun493">Github</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+    </nav>
+
+    <div class="about-me">
+      <h1>Steven Lee</h1>
+      <p>Software Engineer</p>
+      <p>
+        I'm a software engineer specializing in front and backend development.
+        Feel free to check out my project portfolio and online resume.
+      </p>
+      <button id="portfolio-btn">View Portfolio</button>
+      <script>
+        document
+          .getElementById("portfolio-btn")
+          .addEventListener("click", function () {
+            window.location.href = "portfolio.html";
+          });
+      </script>
+      <button id="resume-btn">View Resume</button>
+      <script>
+        document
+          .getElementById("resume-btn")
+          .addEventListener("click", function () {
+            window.location.href = "resume.html";
+          });
+      </script>
+
+      <div class="skill-container">
+        <h1>Skills I've accumulated</h1>
+        <div class="skill-box1">Vanilla JavaScript</div>
+        <div class="skill-box2">React Redux</div>
+        <div class="skill-box3">Node.js</div>
+        <div class="skill-box4">HTML & CSS</div>
+        <div class="skill-box5">PostgreSQL</div>
+        <div class="skill-box6">Sequelize</div>
+        <div class="skill-box7">Github</div>
+        <div class="skill-box8">RESTful API</div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
