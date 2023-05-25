@@ -1,65 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="/style.css" rel="stylesheet" />
+
     <title>Steven's Portfolio</title>
   </head>
+
   <body>
     <nav>
       <div class="navbar">
         <h1><strong>Steven Lee</strong></h1>
+        <div class="my-image"><img src="./images/mypic.PNG" /></div>
         <p>
-          Hello, my name is Steven Lee and I am a software engineer. Welcome to
-          my personal website!
+          Hi, my name is Steven Lee and I am a software engineer. Welcome to my
+          personal website!
         </p>
-        <a href="https://www.linkedin.com/in/steven-sehyun-lee/">Linkedin</a>
-        <a href="https://github.com/SeHyun493">Github</a>
-        <a href="about.html">About Me</a>
-        <a href="contact.html">Contact</a>
-        <a href="resume.html">Resume</a>
-        <a href="portfolio.html">Portfolio</a>
+        <div class="social-media-image">
+          <a href="https://www.linkedin.com/in/steven-sehyun-lee/">
+            <i class="fa-brands fa-linkedin-in fa-lg icon"></i>
+          </a>
+          <a href="https://github.com/SeHyun493">
+            <i class="fa-brands fa-github-alt fa-lg icon"></i>
+          </a>
+          <a href="https://codepen.io/Sehyun493">
+            <i class="fa-brands fa-codepen fa-lg icon"></i>
+          </a>
+        </div>
+        <hr />
+
+        <div class="site-links">
+          <a href="about.html">About Me</a>
+          <a href="contact.html">Contact</a>
+          <a href="resume.html">Resume</a>
+          <a href="portfolio.html">Portfolio</a>
+        </div>
+        <hr />
       </div>
     </nav>
 
     <div class="about-me">
       <h1>Steven Lee</h1>
-      <p>Software Engineer</p>
+      <h3>Software Engineer</h3>
       <p>
-        I'm a software engineer specializing in front and backend development.
-        Feel free to check out my project portfolio and online resume.
+        With a background in Biology coupled with extensive experience in
+        software development, I have acquired valuable skills as a full-stack
+        developer. I would love to help you with your next project! Click on the
+        buttons to check out my project
+        <a href="portfolio.html">portfolio</a> and online
+        <a href="resume.html">resume</a>.
       </p>
-      <button id="portfolio-btn">View Portfolio</button>
-      <script>
-        document
-          .getElementById("portfolio-btn")
-          .addEventListener("click", function () {
-            window.location.href = "portfolio.html";
-          });
-      </script>
-      <button id="resume-btn">View Resume</button>
-      <script>
-        document
-          .getElementById("resume-btn")
-          .addEventListener("click", function () {
-            window.location.href = "resume.html";
-          });
-      </script>
+      <div class="button-container">
+        <button onclick="window.location.href='/portfolio.html'">
+          <i class="fa-solid fa-arrow-right"> View Portfolio</i>
+        </button>
+        <div class="button-container2">
+          <button onclick="window.location.href='/resume.html'">
+            <i class="fa-regular fa-file-lines"> View Resume</i>
+          </button>
+        </div>
+
+        <div class="my-picture">
+          <img src="https://i.gyazo.com/f249314d4bcb7d06df29c613c3d54401.png" />
+        </div>
+      </div>
 
       <div class="skill-container">
-        <h1>Skills I've accumulated</h1>
-        <div class="skill-box1">Vanilla JavaScript</div>
-        <div class="skill-box2">React Redux</div>
-        <div class="skill-box3">Node.js</div>
-        <div class="skill-box4">HTML & CSS</div>
-        <div class="skill-box5">PostgreSQL</div>
-        <div class="skill-box6">Sequelize</div>
-        <div class="skill-box7">Github</div>
-        <div class="skill-box8">RESTful API</div>
+        <h2>Skills</h2>
+        <p>
+          I have successfully completed the rigorous full-time software
+          engineering immersive program at Fullstack Academy. Here is a concise
+          overview of the technical skills and technologies I have acquired.
+        </p>
+
+        <div class="skill-box">
+          <div>
+            <i class="fa-brands fa-js icons" style="color: #edda07"></i>
+            <p>Vanilla JavaScript</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-react icons" style="color: #5895fd"></i>
+            <p>React Redux</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-node-js icons" style="color: #47e23c"></i>
+            <i class="fa-brands fa-npm icons" style="color: #f50000"></i>
+            <p>Node.js npm</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-html5 icons" style="color: #dba329"
+              ><i class="fa-brands fa-css3-alt icons" style="color: #6fa2fb"></i
+            ></i>
+            <p>HTML & CSS</p>
+          </div>
+          <div><p>PostgreSQL</p></div>
+          <div><p>Sequelize</p></div>
+          <div>
+            <i class="fa-brands fa-github icons" style="color: #000000"></i>
+            <p>Github</p>
+          </div>
+          <div><p>RESTful API</p></div>
+        </div>
       </div>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>

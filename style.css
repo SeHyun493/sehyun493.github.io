@@ -7,16 +7,19 @@ body {
   background-color: white;
 }
 
+/* ========================== */
+/*          NAVBAR            */
+/* ========================== */
+
 .navbar {
   padding: 15px;
-  border: 2px solid #9dbbae;
+  border: 2px solid #85ab9b;
   position: fixed;
   top: 0;
   left: 0;
   width: 250px;
   height: 100%;
-  background-color: #9dbbae;
-  color: black;
+  background-color: #85ab9b;
 }
 
 .navbar a {
@@ -24,14 +27,206 @@ body {
   color: white;
 }
 
+.navbar p {
+  color: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+
 .navbar h1 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+hr {
+  border-color: rgba(248, 247, 247, 0.4);
+}
+
+/* ========================== */
+/*      PORTFOLIO IMAGE       */
+/* ========================== */
+
+.my-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* ========================== */
+/*     SOCIAL MEDIA IMAGE     */
+/* ========================== */
+
+.social-media-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
+
+.social-media-image a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: white;
+  color: #85ab9b;
+  width: 13px;
+  height: 13px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========================== */
+/*      SITE LINKS            */
+/* ========================== */
+
+.site-links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.site-links a {
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* ========================== */
+/*        ABOUT ME            */
+/* ========================== */
 
 .about-me {
   text-align: center;
   padding: 15px;
 }
+
+.about-me h1 {
+  font-size: 50px;
+  text-align: left;
+  margin-left: 20%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.about-me h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 20%;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.about-me p {
+  text-align: left;
+  margin-left: 20%;
+  padding: 10px;
+  max-width: 50%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-me a {
+  text-decoration: none;
+  color: #85ab9b;
+}
+
+.button-container {
+  display: flex;
+  margin-left: 20%;
+  padding: 10px;
+}
+
+.button-container button {
+  display: inline-block;
+  border: 2px solid #85ab9b;
+  background-color: #85ab9b;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-container2 button {
+  border: 2px solid slategray;
+  background-color: slategray;
+  color: white;
+}
+
+.my-picture {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.my-picture img {
+  width: 30%;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+  margin-top: -200px;
+  margin-left: 300px;
+  filter: grayscale(100%);
+}
+
+.skill-container {
+  text-align: center;
+  padding: 15px;
+}
+
+.skill-container h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.skill-container p {
+  font-size: 16px;
+  max-width: 47%;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  margin-left: 20%;
+}
+
+.skill-box p {
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+/* ========================== */
+/*        CONTACT ME          */
+/* ========================== */
 
 .contact-me {
   text-align: center;
@@ -40,15 +235,5 @@ body {
 
 .contact-me a {
   text-decoration: none;
-  color: #9dbbae;
-}
-
-button {
-  text-decoration: none;
-  border: 2px solid #9dbbae;
-  background-color: #9dbbae;
-  color: white;
-  border-radius: 6px;
-  height: 40px;
-  cursor: pointer;
+  color: #85ab9b;
 }
