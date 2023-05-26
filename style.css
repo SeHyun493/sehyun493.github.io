@@ -235,11 +235,6 @@ hr {
 
 .skill-box .fa-brands {
   font-size: 30px;
-  transition: transform 0.3s;
-}
-
-.skill-box .fa-brands:hover {
-  transform: scale(1.4);
 }
 
 .skill-box .react p {
@@ -262,11 +257,6 @@ hr {
 .skill-box .postgres img {
   width: 30px;
   height: 30px;
-  transition: transform 0.3s;
-}
-
-.skill-box .postgres:hover img {
-  transform: scale(1.4);
 }
 
 .skill-box .postgres p {
@@ -298,11 +288,22 @@ hr {
   height: 250px;
 }
 
-.row-one img:nth-of-type(2) {
+.row-one a,
+.row-two a {
+  color: black;
+  transition: transform 0.3s;
+}
+
+.row-one a:hover,
+.row-two a:hover {
+  transform: scale(1.1);
+}
+
+.row-one a:nth-of-type(2) img {
   margin-left: -300px;
 }
 
-.row-two img:nth-of-type(2) {
+.row-two a:nth-of-type(2) img {
   margin-left: -300px;
 }
 
@@ -346,10 +347,61 @@ hr {
 
 .contact-me {
   text-align: center;
-  padding: 15px;
+  padding: 40px;
+}
+
+.contact-me h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.contact-me h3 {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.contact-me p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: -15px;
 }
 
 .contact-me a {
+  margin-bottom: -80px;
   text-decoration: none;
   color: #85ab9b;
+}
+
+.contact-form {
+  padding: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  border: 2px solid #85ab9b;
+  background-color: #85ab9b;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
 }

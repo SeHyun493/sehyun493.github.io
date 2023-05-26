@@ -34,7 +34,7 @@
         <hr />
 
         <div class="site-links">
-          <a href="about.html"
+          <a href="index.html"
             ><i class="fa-solid fa-user" style="color: #ffffff"></i>About Me</a
           >
           <a href="contact.html"
@@ -57,13 +57,13 @@
     </nav>
 
     <div class="contact-me">
-      <h1>Contact Me</h1>
-      <p>
-        If you're interested in my portfolio and resume, please feel free to
-        reach out by using the contact form below or sending an email to
-        sehyun493@gmail.com. Looking forward to connecting with you!
-      </p>
-      <p>Follow me for more updates!!</p>
+      <h1>Contact</h1>
+      <h3>
+        Interested in hiring me for your project or just want to say hi? You can
+        fill in the contact form below or send me an email to
+        <strong>sehyun493@gmail.com</strong>.
+      </h3>
+      <p>Want to get connected?</p>
       <div class="social-media-image">
         <a href="https://www.linkedin.com/in/steven-sehyun-lee/">
           <i class="fa-brands fa-linkedin-in fa-lg icon"></i>
@@ -75,26 +75,38 @@
           <i class="fa-brands fa-codepen fa-lg icon"></i>
         </a>
       </div>
-      <form>
-        <input type="text" name="name" id="name" placeholder="Name" required />
 
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Email"
-          required
-        />
+      <div class="contact-form">
+        <h1>Get In Touch</h1>
+        <form action="https://formsubmit.co/sehyun493@gmail.com" method="POST">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
 
-        <textarea
-          id="message"
-          name="message"
-          placeholder="Enter your message"
-          required
-        ></textarea>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
 
-        <button type="submit">Send Now</button>
-      </form>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+
+          <button type="submit" onClick="thankYouMessage(event)">
+            Send Now
+          </button>
+        </form>
+      </div>
     </div>
 
     <script src="index.js"></script>
