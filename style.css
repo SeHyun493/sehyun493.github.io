@@ -346,18 +346,23 @@ hr {
 /* ========================== */
 
 .contact-me {
+  padding: 0;
+  margin: 0;
   text-align: center;
-  padding: 40px;
 }
 
 .contact-me h1 {
-  margin: 0;
+  text-align: center;
+  margin-left: 10%;
   padding: 10px;
+  margin-top: 40px;
 }
 
 .contact-me h3 {
   font-size: 17px;
   font-weight: lighter;
+  text-align: center;
+  margin-left: 10%;
 }
 
 .contact-me p {
@@ -365,16 +370,35 @@ hr {
   line-height: 1.5;
   margin-top: 10px;
   margin-bottom: -15px;
+  text-align: center;
+  margin-left: 10%;
 }
 
-.contact-me a {
-  margin-bottom: -80px;
+.contact-social-media-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 775px;
+  padding: 10px;
+}
+
+.contact-social-media-image a {
   text-decoration: none;
-  color: #85ab9b;
+  margin-right: 5px; /* Adjust the value as per your preference */
+}
+
+.contact-social-media-image a:last-child {
+  margin-right: 0;
 }
 
 .contact-form {
   padding: 200px;
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-left: 12%;
+  padding: 20px;
 }
 
 form {
@@ -387,6 +411,7 @@ form input,
 form textarea {
   width: 500px;
   padding: 10px;
+  margin-left: 10%;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -404,6 +429,23 @@ form textarea {
   cursor: pointer;
   width: 80px;
   height: 40px;
+  margin-left: 12%;
+}
+
+/* ========================== */
+/*            RESUME          */
+/* ========================== */
+
+.resume {
+  padding: 0;
+  margin: 0;
+}
+
+.resume h1 {
+  text-align: center;
+  margin-left: 10%;
+  padding: 10px;
+  margin-top: 40px;
 }
 
 /* ========================== */
