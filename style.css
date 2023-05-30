@@ -384,7 +384,7 @@ hr {
 
 .contact-social-media-image a {
   text-decoration: none;
-  margin-right: 5px; /* Adjust the value as per your preference */
+  margin-right: 5px;
 }
 
 .contact-social-media-image a:last-child {
@@ -446,6 +446,172 @@ form textarea {
   margin-left: 10%;
   padding: 10px;
   margin-top: 40px;
+}
+
+/* ========================== */
+/*         PORTFOLIO          */
+/* ========================== */
+
+.portfolio {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio h1 {
+  text-align: center;
+  margin-left: 10%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.portfolio p {
+  font-size: 17px;
+  margin-left: 30%;
+  max-width: 50%;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+.project p {
+  font-size: 18px;
+}
+
+/* ========================== */
+/*      PORTFOLIO PROJECT     */
+/* ========================== */
+
+.individual-project h1 {
+  text-align: center;
+  margin-left: 10%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.individual-project p {
+  font-size: 17px;
+  margin-left: 30%;
+  max-width: 50%;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+.individual-project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.individual-project-section img {
+  margin-right: 35%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.individual-project-section a {
+  color: black;
+}
+
+.individual-project-section h2 {
+  padding: 10px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.individual-project-section h3 {
+  font-size: 24px;
+  padding: 10px;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.individual-project-section p {
+  padding: 7px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.individual-project-section p:nth-of-type(2) {
+  margin-left: 840px;
+  line-height: 1.4;
+  padding: 15px;
+}
+
+.individual-project-section-requirement {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.individual-project-section-requirement {
+  margin-left: 45%;
+}
+
+.individual-project-section-requirement li {
+  margin-left: 15px;
+  margin-top: 13px;
+}
+
+.project-overview {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.project-overview h1 {
+  margin-left: 22%;
+  margin-top: 10%;
+  white-space: nowrap;
+}
+
+.project-overview p {
+  max-width: 75%;
+  margin: 13% -12.6%;
+  line-height: 1.5;
+}
+
+/* ========================== */
+/*      WASTELESS BITES       */
+/* ========================== */
+
+.wasteless-bite-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wasteless-bite-section img {
+  margin-right: 35%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.wasteless-bite-section a {
+  color: black;
+}
+
+.wasteless-bite-section h2 {
+  padding: 10px;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.wasteless-bite-section p {
+  padding: 11px;
+  margin-top: -4px;
+  margin-left: 3%;
+  text-align: justify;
+}
+
+.wasteless-bite-section-two p {
+  margin-left: 842px;
+  line-height: 1.4;
+  padding: 11px;
 }
 
 /* ========================== */
